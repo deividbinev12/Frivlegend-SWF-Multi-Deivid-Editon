@@ -1,0 +1,31 @@
+<vox>
+
+	<sound id="sfx_circle_on_click"/>
+	<sound id="sfx_circle_selected_loop"/>
+	
+	<sound id="reward_sfx"> 
+		<sound id="sfx_sportscandy_reward"/>
+	</sound>
+	
+	<sound id="reward_boing">
+		<sound id="sfx_sportscandy_reward_sticker"/>
+	</sound>
+	
+	<sound id="certIntro">
+		<sound id="vox_congrats_bronze" filter="cert_type:CertificateSkinBronze"/>
+		<sound id="vox_congrats_gold" filter="cert_type:CertificateSkinGold"/>
+		<sound id="vox_congrats_silver" filter="cert_type:CertificateSkinSilver"/>
+	</sound>
+		
+	<sound id="print_btn" pauseOn="buttonPrint" >
+		<sound id="vox_print_bronze_certificate" filter="cert_type:CertificateSkinBronze"/>
+		<sound id="vox_print_silver_certificate"  filter="cert_type:CertificateSkinSilver"/>
+		<sound id="vox_print_gold_certificate"  filter="cert_type:CertificateSkinGold"/>	
+	</sound>
+
+	<sound id="vox_print_certificate"/>
+	
+	<sound id="transition">
+		<sound id="sfx_game_on_click"/>
+	</sound>
+</vox>

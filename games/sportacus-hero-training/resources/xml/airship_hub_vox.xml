@@ -1,0 +1,67 @@
+<vox>
+
+	<sound id="vox_game_rollover_ac_01" pauseOn="panClip.saysButton" />
+	<sound id="vox_game_rollover_hc_01" pauseOn="panClip.doesButton" />
+	<sound id="vox_game_rollover_smoothies_01" pauseOn="panClip.smoothieMakerButton" />
+	<sound id="vox_sports_cub_timeout_01" pauseOn="panClip.world" />
+	<sound id="vox_controls_instruction" pauseOn="panClip.controlRoomButton" />
+
+	<sound id="timeout" selectionMode="random">
+
+		<sound id="vox_airship_timeout_03" filter="secondsSinceStart:gt:15" />
+		<sound id="vox_airship_timeout_05" filter="secondsSinceStart:gt:30" />
+		<sound id="vox_airship_timeout_06" filter="secondsSinceStart:gt:15" />
+		<sound id="vox_airship_timeout_arrows_02" filter="secondsSinceStart:gt:10" />
+		<sound id="vox_airship_timeout_backpack_04" filter="secondsSinceStart:gt:30" />
+		<sound id="vox_airship_timeout_backpack_07" filter="secondsSinceStart:gt:30" />
+
+
+		<sound id="vox_backpack_instruction" filter="nearKitRoom:true" />
+		<sound id="vox_backpack_timeout_01" filter="nearKitRoom:true" />
+		<sound id="vox_backpack_timeout_02" filter="nearKitRoom:true" />
+		<sound id="vox_backpack_timeout_03" filter="nearKitRoom:true" />
+		<sound id="vox_backpack_timeout_04" filter="nearKitRoom:true" />
+
+		<sound id="vox_controls_instruction" filter="nearControlRoom:true" />
+
+	</sound>
+
+	<sound id="helpIntro" sequenceMode="single">
+		<sound id="vox_airship_timeout_arrows_01" />
+	</sound>
+
+
+<!-- -SFX -->
+	<sound id="sfx_game_on_click"/>
+	<sound id="sfx_game_rollover"/>
+	
+	<sound id="particle_sound">
+		<sound id="sfx_particle_on_selection"/>
+	</sound>	
+		
+	<sound id="sfx_sportscupboard_door"/>
+	
+	<sound id="ball_bounce">
+		<sound id="sfx_ball_bounce_01"/>
+		<sound id="sfx_ball_bounce_02"/>
+		<sound id="sfx_ball_bounce_03"/>
+	</sound>
+	
+	<sound id="arrow_select">
+		<sound id="sfx_arrow_select"/>
+	</sound>
+	
+	<sound id="arrow_on_click">
+		<sound id="sfx_arrows_on_click"/>
+	</sound>
+	
+	
+	<sound id="music">
+	<sound id="airship_hub_bground_music" loops="max"/>
+	</sound>
+
+	<sound id="transition">
+		<sound id="sfx_game_on_click"/>
+	</sound>
+	
+</vox>
